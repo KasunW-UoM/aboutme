@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ 
+}
+
+.header {
+  padding: 150px;
+  text-align: right;
+  background-image: url('he.png');
+  background-repeat: no-repeat;
+  background-attachment:center;
+  background-size: cover;
+  color: white;
+  }
+  
+   .navbar {
+  overflow: hidden;
+  background-color: rgb(216, 29, 29);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  }
+  .navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+  }
+  .navbar a.active {
+  background-color: #666;
+  color: white;
+}
+
+
+.container {
+  position: relative;
+  width: 50%;
+}
+
+.column {
+  float: left;
+  width: 25%;
+  padding: 20px;
+  height: 1500px; 
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.row {margin: 0 -5px;}
+
+.image {
+  display: block;
+  width: 300px;
+  height: 300px;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 300px;
+  width:300px;
+  opacity: 0;
+  transition: .5s ease;
+  background-color:black;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: #333;
+}
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+
+</div>
+<div class="navbar">
+  <a href="Home.html" >Home</a>
+  <a href="contact.html">Contact me</a>
+  <a href="#" class="active">Entertainment</a>
+  
+</div>
+<div class="row">
+			<div class="column" style="background-color:rgb(80, 142, 235)";>
+				<h2>Artificial Intellignce</h2>
+				<div class="container">
+					<img src="ai.jpg" class="image">
+						<div class="overlay">
+							<div class="text">Reading artificial intellignce<p>I most like to artificial intellignce..
+							 and among them my favourite one is the "AI chips"</p></div>
+						</div>
+				</div>
+							<p  style="font-size:180%;color:#ece7e7;  margin:10px;font-family : Arial Rounded MT Bold;">
+							  Artificial intelligence (AI) is wide-ranging branch of computer science concerned with building smart machines capable of performing tasks that typically require human intelligence. AI is an interdisciplinary science with multiple approaches, but advancements in machine learning and deep learning are creating a paradigm shift in virtually every sector of the tech industry. .</p>
+			</div>
+  
+			<div class="column" style="background-color:rgb(20, 60, 240)";>
+			<h2>Hacking</h2>
+				<div class="container">
+					<img src="hack.jpg" class="image">
+						<div class="overlay">
+							<div class="text">Watching HACKING Movies<p>In my free time I watch Hacking movies also.Favourite one is "MR.HACKER". It was a very interesting movie.</p></div>
+						</div>
+				</div>
+							<p  style="font-size:180%;color:#ece7e7;  margin:10px;font-family : Arial Rounded MT Bold;">Hacking is the activity of identifying weaknesses in a computer system or a network to exploit the security to gain access to personal data or business data. An example of computer hacking can be: using a password cracking algorithm to gain access to a computer system.
+
+                Computers have become mandatory to run a successful businesses.
+                It is not enough to have isolated computers systems; they need to be networked to facilitate communication with external businesses. This exposes them to the outside world and hacking.
+							</p>
+			</div>
+			
+			<div class="column" style="background-color:rgb(81, 133, 247)";>
+			<h2>Songs</h2>
+				<div class="container">
+					<img src="song.jpg" class="image">
+						<div class="overlay">
+							<div class="text">Listening to music<p>Listening to music is giving mental treatment and 
+							releasing stress.</p></div>
+						</div>
+				</div>
+							<p  style="font-size:180%;color:#f5f0f0;  margin:10px;font-family : Arial Rounded MT Bold;">I hope to relieve my tired mind with a song.Busy with university life, I am ready to calm down even with a song in this busy life.
+		</p>
+			</div>
+			
+			<div class="column" style="background-color:rgb(75, 75, 72)";>
+			<underline><h2>My entertainment</h2>
+			<h3>My FAV book</h3>
+				<div class="container">
+					<img src="downloadBOOK.jpg" class="image">
+						<div class="overlay">
+							<div class="text">Guru Geethaya<p>read my  fav book  link click</p></div>
+						</div>
+				</div>
+							<p  style="font-size:180%;color:#f1e8e8;  margin:10px;font-family : Arial Rounded MT Bold;"><a href="http://nawakathapoth.blogspot.com/2019/07/guru-geethaya-first-teacher-by-chinghiz.html" >Guru Geethaya</a></p>
+			
+				<h3>watch my hacking movie</h3>
+				<div class="container">
+					<img src="who-am-i.jpg" class="image">
+						<div class="overlay">
+							<div class="text">MR.HACKER<p>watch my  fav HACKING movie through the link</p></div>
+						</div>
+				</div>
+				<p  style="font-size:180%;color:#0d0d0d;  margin:10px;font-family : Arial Rounded MT Bold;"><a href="https://www.youtube.com/watch?v=YfTUIWEHl6s" >MR.HACKER</a></p>
+			
+			
+				<h3>watch my fav films..</h3>
+				<div class="container">
+					<img src="harrypotter.jpg" class="image">
+						<div class="overlay">
+							<img src="harrypotter.jpg" class="image">
+						</div>
+				</div>
+				<p  style="font-size:180%;color:#0d0d0d;  margin:10px;font-family : Arial Rounded MT Bold;"><a href="https://www.youtube.com/watch?v=GKT9TbUYDME" >Harry Potter</a></p>
+			
+			</div>
+
+
+</div>
+
+<div class="footer">
+	<h2><a href="#About"></a></h2>
+</div>
+
+</body>
+</html>

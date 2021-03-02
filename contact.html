@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+ 
+}
+* {
+  box-sizing: border-box;
+}
+
+.header {
+  padding: 200px;
+  text-align: right;
+  background-image: url('mora.png');
+  background-repeat: no-repeat;
+  background-attachment:center;
+  background-size: cover;
+  color: white;
+  }
+  .navbar {
+  overflow: hidden;
+  background-color: rgb(194, 27, 27);
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  }
+  .navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 20px;
+  text-decoration: none;
+}
+.navbar a:hover {
+  background-color: rgb(146, 143, 143);
+  color: black;
+  }
+  .navbar a.active {
+  background-color: dimgray;
+  color: white;
+}
+
+
+
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-image: linear-gradient(to bottom right,deepskyblue, blue, white);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+
+
+
+.contact {
+  border-radius: 5px;
+  background-color: #fcf9f9;
+  padding: 10px;
+}
+
+
+.column {
+  float: left;
+  width: 50%;
+  margin-top: 6px;
+  padding: 20px;
+}
+
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.footer {
+  padding: 50px;
+  text-align: center;
+  background: #333;
+}
+.navigation {
+  float: left;
+  width: 50%;
+  padding: 20px;
+  height: 830px; 
+}
+
+
+
+
+</style>
+</head>
+<body>
+
+<div class="header">
+
+</div>
+<div class="navbar">
+  <a href="Home.html" >Home</a>
+  <a href="#" class="active">Contact me</a>
+  <a href="Entertainment.html">Entertainment</a>
+  
+</div>
+
+
+<div class="contact ">
+  <div style="text-align:center; background-color:rgb(115, 194, 214);">
+    <h2>Contact Me</h2>
+    <p>ANYTHING YOU WANT TO KNOW ABOUT ME... </p>
+  </div>
+		<div class="row">
+					<div class="navigation"style="background-image:url('crop.jpg')";>
+						
+					
+					</div>
+							<div class="column">
+							<form >
+								<label for="fname">First Name</label>
+								<input type="text" id="fname" name="firstname" placeholder="Your first name..">
+                <label for="mname">Middle Name</label>
+								<input type="text" id="mname" name="Middlename" placeholder="Your Middle name..">
+								<label for="lname">Last Name</label>
+								<input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                <label for="Phone Number">Phone Number</label>
+								<input type="text" id="Phone Number" name="Phone Number" placeholder="Your Phone Number">
+								<label for="email">E mail</label>
+								<input type="text" id="email" name="email" placeholder="Your E-mail">
+                <label for="subject">address</label>
+								<textarea id="subject" name="subject" placeholder="please my address.." style="height:150px"></textarea>
+								<label for="subject">Message</label>
+								<textarea id="subject" name="subject" placeholder="Write something.." style="height:180px"></textarea>
+								<input type="submit" value="Send me">
+							</form>
+							<h2 style="font-size:100%;color:rgb(13, 13, 240);  margin:10px;font-family : Bookshelf Symbol 7; text-align:center;"> Contact me via...<br>I am Social</h2>
+						<p style="text-align:center";><a href="https://www.facebook.com/kasun.weerasekara.16/?ti=as" ><img src="fb.png" width="80" height="80" ></a>
+						<a href="https://www.linkedin.com/in/kasun-weerasekara1997/?ti=as" ><img src="linked.png" width="80" height="80" ></a>
+						<a href="https://github.com/KasunW-UoM?tab=repositories?s=03" ><img src="github.png" width="80" height="80" ></a>
+						<a href="https://www.instagram.com/weerasekara.k/?r=nametag" ><img src="insta.jpg" width="80" height="80" ></a>
+            <a href="https://kasunweerasekara-93045.medium.com/" ><img src="medium-47-433328.png" width="80" height="80" ></a>
+            <a href="https://www.hackerrank.com/Kasunmadulal" ><img src="HackerRank_logo.png" width="80" height="80" ></a>
+            <a href="https://www.sololearn.com/profile/9279530" ><img src="solo.png" width="80" height="80" ></a></p>
+  
+							</div>
+					</div>
+</div>
+<div class="footer">
+  <h2><a href="#About"></a></h2>
+</div>
+
+
+</body>
+</html>
